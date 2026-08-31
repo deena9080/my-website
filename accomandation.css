@@ -1,0 +1,770 @@
+body{
+    font-family: Arial,sans-serif;
+}
+.logo h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.acc-hero {
+  height: 380px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtvNVxeerPSLTf6HCD4vp84Ih4RA5Suu8srCyMM4vAaw&s=10");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.acc-overlay {
+  color: white;
+}
+
+.acc-overlay h1 {
+  font-size: 45px;
+  margin: 0 0 10px;
+}
+
+.acc-overlay p {
+  font-size: 18px;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+.accommodation {
+    padding: 80px 40px;
+    background-color: white;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title p {
+    color:lightslategray;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 24px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.section-title span {
+    color: #777;
+    font-size: 24px;
+}
+
+.room-container {
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.room {
+    overflow: hidden;
+}
+
+.room-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.room img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+}
+
+.room:hover img {
+    transform: scale(1.1);
+}
+
+.book-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    background-color: #e8b600;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.book-btn:hover {
+    background-color: #c99d00;
+}
+
+.room-details {
+    text-align: center;
+    padding: 15px 5px;
+}
+
+.room-details h3 {
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+.room-details h4 {
+    color: #69c4d1;
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.room-details h4 span {
+    color: #aaa;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+.booking-box {
+    width: 100%;
+    height: 300px;
+    max-width: 1200px;
+    margin: 0px auto 0;
+    background-color: #07111f;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items:center;
+    gap: 20px;
+    padding: 50px 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+.booking-title {
+    width: 180px;
+}
+.booking-title h2 {
+    color: white;
+    font-size: 25px;
+    line-height: 1.2;
+}
+.booking-field {
+    width: 180px;
+    height: 55px;
+    padding: 8px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.booking-field label {
+    color: #aaa;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.booking-field input,
+.booking-field select {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+.booking-field select option {
+    color: black;
+}
+.book-bts {
+    width: 180px;
+    height: 55px;
+    background-color: #f5b400;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.book-bts:hover {
+    background-color: #d99d00;
+}
+
+body{
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.footer {
+    background: #04091e;
+    color: #777;
+    padding: 80px 4% 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 180px;
+}
+
+.footer-container {
+    max-width: 1400px;
+    margin: 150px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.2fr 1.2fr 1.2fr 1fr;
+    gap: 60px;
+}
+
+.footer-col h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.footer-col p {
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.footer-links {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-links a {
+    display: block;
+    color: #777;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-links a:hover {
+    color: orange;
+}
+
+.newsletter {
+    display: flex;
+    margin-top: 30px;
+}
+
+.newsletter input {
+    width: 280px;
+    padding: 16px;
+    background: transparent;
+    border: 1px solid #333;
+    color: white;
+    outline: none;
+    font-size: 17px;
+}
+
+.newsletter button {
+    width: 55px;
+    border: none;
+    background: #f9c400;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.insta-feed {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.insta-feed img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.footer-bottom {
+    max-width: 1400px;
+    margin: 60px auto 0;
+    padding-top: 35px;
+    border-top: 1px solid #252a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.footer-bottom span {
+    color: #f9c400;
+}
+
+.social {
+    display: flex;
+    gap: 30px;
+}
+
+.social a {
+    color: #777;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social a:hover {
+    color: white;
+}
+
+@media (max-width: 480px) {
+
+    .accommodation {
+        width: 100%;
+        padding: 50px 15px;
+    }
+
+    .section-title {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .section-title p {
+        font-size: 14px;
+        line-height: 1.6;
+        letter-spacing: 0;
+    }
+
+    .room-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .room {
+        width: 100%;
+    }
+
+    .room-image {
+        width: 100%;
+    }
+
+    .room img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .room-details {
+        width: 100%;
+        text-align: center;
+        padding: 15px 5px;
+    }
+
+    .room-details h3 {
+        font-size: 19px;
+        line-height: 1.4;
+    }
+
+    .room-details h4 {
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .book-btn {
+        padding: 10px 20px;
+        font-size: 13px;
+        bottom: 15px;
+    }
+    .footer {
+        width: 100%;
+        padding: 50px 20px 30px;
+        background: #04091e;
+        text-align: center;
+    }
+
+    .footer-container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+    .footer-col {
+        width: 100%;
+        display: block;
+    }
+
+    .footer-col h3 {
+        color: white;
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+
+    .footer-col p {
+        color: #777;
+        font-size: 15px;
+        line-height: 1.7;
+        margin: 0;
+    }
+
+    .footer-links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .footer-links a {
+        display: block;
+        width: 100%;
+        color: #777;
+        font-size: 15px;
+        text-decoration: none;
+        margin-bottom: 12px;
+    }
+
+    .footer-links a:hover {
+        color: orange;
+    }
+
+    /* Newsletter */
+    .newsletter {
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .newsletter input {
+        width: calc(100% - 50px);
+        height: 48px;
+        padding: 12px;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    .newsletter button {
+        width: 50px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+
+    /* Instagram images */
+    .insta-feed {
+        width: 140px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 60px);
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .insta-feed img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+
+    /* Copyright */
+    .footer-bottom {
+        width: 100%;
+        margin: 35px auto 0;
+        padding-top: 25px;
+        border-top: 1px solid #252a3a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footer-bottom p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin: 0;
+        color: white;
+    }
+
+    .footer-bottom span {
+        color: #f9c400;
+    }
+
+    /* Social icons */
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .social a {
+        color: #777;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .social a:hover {
+        color: white;
+    }
+    .booking-box {
+        width: 92%;
+        height: auto;
+        margin: 30px auto;
+        padding: 25px 18px;
+        position: relative;
+        bottom: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        box-sizing: border-box;
+    }
+
+    .booking-title,
+    .booking-field,
+    .book-bts {
+        width: 100%;
+    }
+
+    .booking-title {
+        text-align: center;
+    }
+
+    .booking-title h2 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .booking-field {
+        height: 55px;
+    }
+
+    .book-bts {
+        height: 55px;
+    }
+    .booking-box {
+        border: none;
+        box-shadow: none;
+        margin:none;
+    }
+}
+
+
+/*===============TABLET MEDIA=============*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* ================= HERO ================= */
+
+    .acc-hero {
+        width: 100%;
+        height: 350px;
+        background-position: center;
+    }
+
+    .acc-overlay h1 {
+        font-size: 42px;
+    }
+
+    .acc-overlay p {
+        font-size: 17px;
+    }
+
+
+    /* ================= ACCOMMODATION ================= */
+
+    .accommodation {
+        width: 100%;
+        padding: 60px 25px;
+        box-sizing: border-box;
+    }
+
+    .section-title {
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+    .section-title p {
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: 1px;
+    }
+
+    .room-container {
+        width: 100%;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .room {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .room-image {
+        width: 100%;
+        position: relative;
+    }
+
+    .room img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .room-details {
+        width: 100%;
+        padding: 15px 5px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .room-details h3 {
+        font-size: 20px;
+    }
+
+    .room-details h4 {
+        font-size: 23px;
+    }
+
+    .room-details h4 span {
+        font-size: 14px;
+    }
+
+    .book-btn {
+        padding: 12px 22px;
+        font-size: 14px;
+        bottom: 15px;
+    }
+
+
+    /* ================= BOOKING BOX ================= */
+
+    .booking-box {
+        width: 92%;
+        max-width: 900px;
+        height: auto;
+        margin: 20px auto;
+        padding: 30px 25px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .booking-title {
+        width: 100%;
+    }
+
+    .booking-title h2 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .booking-field {
+        width: 100%;
+        height: 55px;
+        box-sizing: border-box;
+    }
+
+    .booking-field input,
+    .booking-field select {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .book-bts {
+        width: 100%;
+        height: 55px;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    .footer {
+        width: 100%;
+        padding: 60px 30px 40px;
+        box-sizing: border-box;
+    }
+
+    .footer-container {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 25px;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    .footer-col h3 {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+    .footer-col p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .footer-links a {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .newsletter {
+        width: 100%;
+        display: flex;
+    }
+
+    .newsletter input {
+        width: calc(100% - 55px);
+        box-sizing: border-box;
+    }
+
+    .newsletter button {
+        width: 55px;
+        flex-shrink: 0;
+    }
+
+    .insta-feed {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+    }
+
+    .insta-feed img {
+        width: 55px;
+        height: 55px;
+        object-fit: cover;
+    }
+
+    .footer-bottom {
+        width: 100%;
+        margin: 40px auto 0;
+        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+}

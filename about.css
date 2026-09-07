@@ -337,6 +337,9 @@ body{
         width: 100%;
         box-sizing: border-box;
     }
+    .facility-card h3{
+        font-size: 35px;
+    }
 
     .testimonial-container {
         width: 100%;
@@ -353,6 +356,9 @@ body{
         width: 100%;
         margin: 0;
         box-sizing: border-box;
+        padding: 12px;
+        text-align: center;
+        padding: 20px;
     }
     .footer {
         width: 100%;

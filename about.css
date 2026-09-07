@@ -80,7 +80,7 @@
 
 .facilities {
     padding: 90px 8%;
-    background-image: url(assets/gemini6.png);
+    background-image: url("assets/gemini6.png");
     background-size: cover;
     background-position: center;
     fill-opacity: blur(30px);

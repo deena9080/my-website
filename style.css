@@ -1591,6 +1591,9 @@ body {
     .about-content h1 {
         font-size: 28px;
     }
+    .testimonial{
+        margin-top: 20px;
+    }
 
     .testimonial-section h1,
     .blog-section h1 {
